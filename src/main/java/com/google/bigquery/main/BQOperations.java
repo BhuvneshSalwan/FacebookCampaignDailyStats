@@ -22,7 +22,7 @@ public class BQOperations {
 	
 	private static final String PROJECT_ID = "stellar-display-145814";
 	private static final String DATASET_ID = "facebook_raw";
-	private static final String TABLE_ID = "fb_daily_campaign_stats_data";
+	private static final String TABLE_ID = "fb_daily_campaign_stats_data_timezone";
 	
 	public static Boolean StructureValidate(Bigquery bigquery){
 		
